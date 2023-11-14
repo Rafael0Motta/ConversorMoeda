@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/dado.ico" type="image/x-icon">
+    <title>Sorteador de Numeros</title>
+</head>
+
+<body>
+    <main>
+        <div id="imgLogo">
+            <img id="logoDado" src="./assets/dado.png" alt="Logo de um Dado Vermelho">
+        </div>
+
+        <div id="content">
+            <h1>Sortei um Número</h1>
+
+            <div id="inputs"> 
+                <input type="number" id="inputN1" placeholder="Entre: 1">
+                <input type="number" id="inputN2" placeholder="E: INFINITO">
+
+                <button onclick="main()">SORTEAR</button>
+            </div>
+
+            <div id ="resultado"></div>
+        </div>
+    </main>
+</body>
+
+</html>
