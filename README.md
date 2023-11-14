@@ -24,7 +24,7 @@ Validação de Entrada:
 - A função mostrarNumero(resultado) exibe o número sorteado no elemento com o id #resultado.
 
 #### Utilização
-- Acesse o link em seu navegador - [SORTEADOR](https://hdc-host-1.netlify.app/).
+- Acesse o link em seu navegador - [SORTEADOR](https://sorteado-numeros.netlify.app/).
 - Insira os valores desejados nos campos de entrada.
 - Clique no botão "SORTEAR" para gerar um número aleatório dentro do intervalo especificado.
 - O número sorteado será exibido no elemento com o id #resultado.
