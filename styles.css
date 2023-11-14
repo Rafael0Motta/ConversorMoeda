@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+#logoDado {
+    display: block;
+    margin: 50px auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#inputs {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    padding: 20px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.25);
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    transition: ease 1s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+#inputN1 {
+    margin: 0 20px 0 0;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    background: #616d26;
+    width: 300px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+input:hover, button:hover {
+    transform: scale(1.1);
+}
+
+#resultado {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* responsivo */
+
+@media screen and (max-width: 768px) {
+    #logoDado {
+        margin: 20px auto;
+        display: block;
+        width: 400px;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    #inputEntre {
+        margin: 0 0 20px 0;
+    }
+}
