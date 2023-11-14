@@ -1,5 +1,4 @@
 function main() {
-
   if(check()){ 
     return
   }
@@ -20,15 +19,13 @@ function getData() {
   console.log("Entrei GetData()");
   let n1 = document.querySelector("#inputN1").value;
   let n2 = document.querySelector("#inputN2").value;
-  console.log("Sai getData()");
   return [n1, n2];
 }
 
 function sorteador(n1, n2) {
-  n1 = parseInt(n1);
-  n2 = parseInt(n2);
-  let numeroAleatorio = Math.floor(Math.random() * n2) + n1;
-  return numeroAleatorio;
+  let min = Math.ceil(n1);
+  let max = Math.floor(n2);
+  return Math.floor(Math.random()*(max - min +1)) + min;
 }
 
 function mostrarNumero(resultado) {
